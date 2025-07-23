@@ -11,4 +11,5 @@ I would prefer if you didn't. I've tried to obfuscate here and there but if you 
 
 ## How to get started
 > npm install
+> 
 > npm run start
