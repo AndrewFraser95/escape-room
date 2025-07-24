@@ -52,13 +52,14 @@ export const DigitalLock = ({
       prevInput?.focus();
     }
   };
+  <span style={{ display: "none" }} data-code="1234"></span>;
 
   if (isUnlocked) {
     return (
       <Card className="p-8 bg-gradient-concrete border-success/50 shadow-glow-cool">
         <div className="text-center">
           <div className="text-4xl font-bold text-success mb-4">✓ UNLOCKED</div>
-          <p className="text-success">Lighthouse scores accepted!</p>
+          <p className="text-success">Code accepted!</p>
         </div>
       </Card>
     );
@@ -119,7 +120,7 @@ export const DigitalLock = ({
       )}
 
       <div className="mt-6 text-xs text-center text-muted-foreground">
-        Hint: If you want to Perform, you need to be on the lookout
+        Hint: But what do you really look like?
       </div>
     </Card>
   );

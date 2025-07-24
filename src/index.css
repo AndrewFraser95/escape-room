@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Basement/Cellar Escape Room Theme */
+    /* Escape Room Theme */
     --background: 220 15% 8%;
     --foreground: 45 25% 85%;
 
@@ -37,7 +37,7 @@ All colors MUST be HSL.
     --input: 220 30% 15%;
     --ring: 25 85% 45%;
 
-    /* Basement specific colors */
+    /* Escape room specific colors */
     --concrete: 215 15% 25%;
     --concrete-dark: 215 20% 15%;
     --metal: 200 10% 35%;

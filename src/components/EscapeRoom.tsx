@@ -55,7 +55,7 @@ export const EscapeRoom = () => {
         {/* Header */}
         <div className="text-center mb-8">
           <h1 className="text-5xl font-bold text-warm-light mb-4 shadow-deep">
-            BASEMENT ESCAPE ROOM
+            CURVE ESCAPE ROOM
           </h1>
           <p className="text-xl text-muted-foreground mb-4">
             Solve the puzzles to escape from the cellar

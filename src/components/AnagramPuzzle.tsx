@@ -149,10 +149,17 @@ export const AnagramPuzzle = ({
               " (Hint will appear after 3 attempts)"}
           </div>
         )}
+        {showHint && (
+          <div className="text-xs text-center text-muted-foreground">
+            Hint: KPMG Peter Griffin (4 words)
+          </div>
+        )}
 
-        <div className="text-xs text-center text-muted-foreground">
-          Hint: KPMG Peter Griffin
-        </div>
+        {attempts >= 15 && (
+          <div className="text-xs text-center text-muted-foreground">
+            Hint 2: CITW
+          </div>
+        )}
       </div>
     </Card>
   );
